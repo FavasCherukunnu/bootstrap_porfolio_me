@@ -2,6 +2,7 @@
     background-image: url('assets/image/background.jpg');
     height: 100vh;
     background-size: cover;
+    background-attachment: fixed;
     z-index: 0;
 }
 #background-profile::before {
