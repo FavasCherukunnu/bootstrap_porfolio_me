@@ -1,3 +1,25 @@
+
+.topContentDiv{
+    position: sticky;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 6;
+}
+#icons{
+
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    z-index: 6;
+}
+#icons :hover{
+    color: rgb(95, 94, 94);
+}
+
 #rowTop{
     position: absolute;
     height: 100vh;
@@ -13,27 +35,6 @@
     background-size: cover !important;
     background-position: center top !important;
     /* height: 100%; */
-}
-.topContentDiv{
-    position: sticky;
-    height: 100vh;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0);
-    z-index: 6;
-}
-
-#icons{
-
-    color: white;
-    font-size: 30px;
-    margin-left: 10px;
-    margin-top: 10px;
-    z-index: 6;
-}
-#icons :hover{
-    color: rgb(95, 94, 94);
 }
 
 .topContentDiv h1{
