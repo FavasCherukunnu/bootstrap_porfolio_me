@@ -1,4 +1,6 @@
-
+#namePassion{
+    height: 100%;
+}
 
 .topContentDiv{
     /* position: sticky; */
@@ -33,12 +35,9 @@
     font-size: 6vw;
     font-weight: 700;
     /* line-height: 20px; */
-    color: #fff;
+    color: #ffffff;
 }
 
-#passionDiv{
-    height: 0;
-}
 
 #passionDivText {
     color: #fff;
@@ -49,11 +48,12 @@
 }
 
 
-#rowTop{
+#topBackground{
     position: absolute;
     height: 100vh;
     width: 100%;
     top: 0;
+    z-index: 0;
 }
 
 
