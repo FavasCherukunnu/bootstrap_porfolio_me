@@ -50,11 +50,29 @@ on right list button press
 function onListPress(){
     document.getElementById('sideList').style.right = '0'+'px';
 }
+/*-----------------------------------
+on outside of sideList press
+------------------------------------*/
+document.addEventListener('click', function(e){   
+if (document.getElementById('sideList').contains(e.target)){
+    // Clicked in box
+} else{
+    if(document.getElementById('listButton').contains(e.target)){
+
+    }else{
+        document.getElementById('sideList').style.right = '-500'+'px';
+
+    }
+}
+});
+
+
+
 
 window.addEventListener("load",()=>{
     loadtopContentDivHeight();
     loadTopNamePassionHeight();
-    document.getElementById('sideList').style.top = document.getElementById('iconDiv').offsetHeight+'px';
+    // document.getElementById('sideList').style.top = document.getElementById('iconDiv').offsetHeight+'px';
 });
 window.addEventListener('resize',()=>{
     loadtopContentDivHeight();
