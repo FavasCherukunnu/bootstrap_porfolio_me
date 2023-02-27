@@ -30,6 +30,119 @@
     color: rgb(95, 94, 94);
 }
 
+.btn {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    /* border-color: rgb(253, 253, 253);  */
+    /* margin: 10px; */
+
+}
+
+#sideList {
+    transition: 0.2s;
+    background-color: black;
+    z-index: 500;
+    position: fixed;
+    top: 0;
+    right: -500px;
+    height: 100vh;
+    /* width: 100%; */
+    /* background-color: aqua; */
+}
+
+.profileName {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    font-family: "Poppins", sans-serif;
+    color: #212431;
+
+}
+
+.profile{
+    color: #212431;
+
+}
+
+.profileImageDive{
+    background-color: #fff; 
+     /* width: 120px; */
+    border-radius: 50%;
+    display: block;
+    margin: 15px auto;
+  
+}
+
+.profile img {
+    /* margin: 15px auto; */
+    display: block;
+    width: 180px;
+    border: 8px solid #ffffff;
+    
+}
+
+#sideListItems {
+    background-color: black;color: white;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.sideMenu{
+    background: -webkit-linear-gradient(  #040b14 105px, rgb(255, 255, 255)10px);
+    width: 300px;
+    min-height: 100vh;
+
+}
+
+.nav-menu {
+    padding: 30px 0 0 0;
+}
+.nav-menu * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+.nav-menu>ul>li {
+    position: relative;
+    white-space: nowrap;
+}
+
+.nav-menu a,
+.nav-menu a:focus {
+    display: flex;
+    align-items: center;
+    color: #212431;
+    padding: 12px 15px;
+    margin-bottom: 8px;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+.nav-menu a i,
+.nav-menu a:focus i {
+font-size: 24px;
+padding-right: 8px;
+color: #212431;
+}
+
+.nav-menu a:hover,
+.nav-menu .active,
+.nav-menu .active:focus,
+.nav-menu li:hover>a {
+text-decoration: none;
+color: #727272;
+}
+
+.nav-menu a:hover i,
+.nav-menu .active i,
+.nav-menu .active:focus i,
+.nav-menu li:hover>a i {
+color: #149ddd;
+text-decoration: underline;
+}
 .topContentDiv h1{
     z-index: 1;
     font-size: 6vw;

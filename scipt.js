@@ -44,14 +44,17 @@ function topDivOperations(){
 
 }
 
-
-// document.getElementById('topContentDiv').onload(()=>{
-
-// });
+/*----------------------------------
+on right list button press
+-----------------------------------*/
+function onListPress(){
+    document.getElementById('sideList').style.right = '0'+'px';
+}
 
 window.addEventListener("load",()=>{
     loadtopContentDivHeight();
     loadTopNamePassionHeight();
+    document.getElementById('sideList').style.top = document.getElementById('iconDiv').offsetHeight+'px';
 });
 window.addEventListener('resize',()=>{
     loadtopContentDivHeight();
