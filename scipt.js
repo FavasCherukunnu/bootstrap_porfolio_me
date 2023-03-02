@@ -16,6 +16,8 @@ function topDivOperations(){
 
     var topTextHeight = document.getElementById('iconDiv').offsetHeight;
     var scrollHeight = topContentDivHeigth - window.pageYOffset;
+
+
     // if (window.pageYOffset > 0) {
     var bottom = document.getElementById('topBackground').offsetHeight;
     var opac = (window.pageYOffset/bottom)+0.3;
@@ -26,6 +28,7 @@ function topDivOperations(){
     // }
     if(scrollHeight>topTextHeight){
         document.getElementById('topContentDiv').style.height = scrollHeight+'px';
+        
         document.getElementById('topContentDiv').style.backgroundColor = 'rgba(0, 0, 0, 0)';    //transparent
         if(topNamePassionHeight>=scrollHeight){
             document.getElementById('nameDiv').style.display = 'none';

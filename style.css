@@ -1,7 +1,36 @@
+#container-fluid{
+    position: relative;
+}
+
+#topBackground{
+    position: static;
+    height: 100vh;
+    /* width: 100%; */
+    top: 0;
+    z-index: -1;
+}
+
+#background-profile {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(assets/image/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed !important;
+    background-size: cover !important;
+    background-position: center top !important;
+    /* height: 100%; */
+}
+
+
+
 #namePassion{
     height: 100%;
 }
-
+.topRow{
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
 .topContentDiv{
     /* position: sticky; */
     height: 100vh;
@@ -12,12 +41,7 @@
     /* z-index: 2; */
 }
 
-.topRow{
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 2;
-}
+
 #icons{
 
     color: white;
@@ -173,23 +197,6 @@ text-decoration: underline;
 }
 
 
-#topBackground{
-    position: absolute;
-    height: 100vh;
-    width: 100%;
-    top: 0;
-    z-index: 0;
-}
-
-
-#background-profile {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(assets/image/background.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed !important;
-    background-size: cover !important;
-    background-position: center top !important;
-    /* height: 100%; */
-}
 
 /*--------------------------------------
 Scrollbar
