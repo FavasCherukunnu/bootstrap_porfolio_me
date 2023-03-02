@@ -20,11 +20,11 @@ function topDivOperations(){
 
     // if (window.pageYOffset > 0) {
     var bottom = document.getElementById('topBackground').offsetHeight;
-    var opac = (window.pageYOffset/bottom)+0.3;
+    var opac = (window.pageYOffset/bottom+0.3);
     // console.log('heigth is', topContentDivHeigth);
     document.getElementById('background-profile').style.background = "linear-gradient(rgba(0, 0, 0, " + opac + "), rgba(0, 0, 0, " + opac + ")), url(assets/image/background.jpg) no-repeat";
-    document.getElementById('passionDivText').style.color = 'rgba(252, 252, 252,'+ ((1-opac)+0.3) + ')';
-    document.getElementById('nameDivText').style.color = 'rgba(252, 252, 252,'+ ((1-opac)+0.3) + ')';
+    document.getElementById('passionDivText').style.color = 'rgba(252, 252, 252,'+ ((1-(opac*2))+0.3*2) + ')';
+    document.getElementById('nameDivText').style.color = 'rgba(252, 252, 252,'+ ((1-(opac*2))+0.3*2) + ')';
     // }
     if(scrollHeight>topTextHeight){
         document.getElementById('topContentDiv').style.height = scrollHeight+'px';
